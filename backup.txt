@@ -1,0 +1,22 @@
+.miParrafito{
+    font-size: 2rem;
+    color: brown;
+    font-family: Nerko One;
+}/*para clase*/
+
+#miParrafito{
+
+}/*para id*/
+
+.encabezadito{
+    background-color: black;
+    color:aquamarine;
+}
+
+.tablita{
+    background-color: yellow;
+}
+
+#manguito{
+    background-color: gray;
+}

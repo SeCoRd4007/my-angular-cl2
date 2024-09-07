@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --variableParafo: 1rem;
+    --color1: #fff000;
+    /*colores filas*/
+    --colorencabezado: #000000;
+    --colorletratabla: #39b0ff;
+    --coloresdivGeneral:#a37800;
+    --anchodivGeneral: 300px;
+    --margendivGeneral: auto;
+    --coloresdivSec:#1c0080;
+    --coloresdivter:#00ff22;
+    --anchodivsec: 100px;
+    --margendivsec: auto;
+    --floatdivGeneral: left;
+    --floardivsec:left;
+    --floardivter:right;
+    --link-site: #ca630f;
+}
+p {
+    color: var(--color1);
+    font-size: var(--variableParafo);
+}
+
+table{
+    background-color: var(--colorencabezado);
+    color: var(--colorletratabla);
+}
+
+.general{
+    background-color: var(--coloresdivGeneral);
+    width:var(--anchodivGeneral);
+    margin:var(--margendivGeneral);
+    float: var(--floatdivGeneral);
+}
+.subitem{
+    background-color: var(--coloresdivSec);
+    width: var(--anchodivsec);
+    margin: var(--margendivsec);
+    float: var(--floardivsec);
+}
+.tercerdiv{
+    float: var(--floardivter);
+    background-color: var(--coloresdivter);
+    margin: var(--margendivsec);
+    width: var(--anchodivsec);
+}
+a:link{
+        color: var(--link-site);
+}
